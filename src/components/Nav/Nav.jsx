@@ -1,7 +1,12 @@
+import Logo from "../Logo/Logo";
+
 function Nav() {
-    return(
-    <nav>  <div> <h1>hi
-        </h1></div></nav>
-    )
+  return (
+    <nav className="navtop">
+      <div className="container">
+        <Logo />
+      </div>
+    </nav>
+  );
 }
-export default Nav
+export default Nav;
