@@ -1,53 +1,222 @@
-export let navigation = [
+export const navigation = [
   { names: "Դասընթացներ", href: "#section-price" },
   { names: "Առավելություններ", href: "#section-advantage" },
   { names: "Թրեյներներ", href: "#" },
   { names: "Մեր մասին", href: "#" },
 ];
 
-export let socialLinks = [
+export const socialLinks = [
   {
     href: "https://www.facebook.com/SmartCode.am/",
-    className:"fab fa-facebook-f",
-    target:"_blank"
+    className: "fab fa-facebook-f",
+    target: "_blank",
   },
   {
     href: "https://www.linkedin.com/company/smarttechnologyllc/",
-    className:"fab fa-linkedin-in",
-    target:"_blank"
+    className: "fab fa-linkedin-in",
+    target: "_blank",
   },
   {
     href: "https://www.instagram.com/smartcode.am/",
-    className:"fab fa-instagram",
-    target:"_blank"
+    className: "fab fa-instagram",
+    target: "_blank",
   },
-  { href: "https://www.tiktok.com/@smartcode.am",
-    className:"fab fa-tiktok",
-    target:"_blank"
-  }
+  {
+    href: "https://www.tiktok.com/@smartcode.am",
+    className: "fab fa-tiktok",
+    target: "_blank",
+  },
 ];
 
-{
-  /* <li><a href="https://www.facebook.com/SmartCode.am/" target="_blank">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
+export const coursesData = [
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/ai-automation.png",
+      title: "AI Automation",
+      duration: "1 ամիս",
+      price: "89,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/front-end.svg",
+      title: "WEB Front-End",
+      duration: "9 ամիս",
+      price: "58,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/python-ml.svg",
+      title: "Python (ML/AI)",
+      duration: "7 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/java.svg",
+      title: "Java",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/javaScript.svg",
+      title: "JavaScript",
+      duration: "3.5 ամիս",
+      price: "58,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/react.svg",
+      title: "React.js (Redux)",
+      duration: "3 ամիս",
+      price: "58,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/node.svg",
+      title: "Node.js",
+      duration: "3 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/devops.svg?v=1.2",
+      title: "DevOps",
+      duration: "4 ամիս",
+      price: "68,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/C.svg",
+      title: "C#",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/python-django.svg",
+      title: "Python (Django)",
+      duration: "5 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/php.svg",
+      title: "PHP (Laravel)",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/full-stack.svg",
+      title: "WEB Full-Stack",
+      duration: "11 ամիս",
+      price: "58,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/ui-ux.svg?v=1.1",
+      title: "UX/UI Design",
+      duration: "4 ամիս",
+      price: "65,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/qa.svg",
+      title: "QA Engineer",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/graphic-design.svg?v=1.2",
+      title: "Graphic Design",
+      duration: "3 ամիս",
+      price: "65,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/pm.svg",
+      title: "Product Management",
+      duration: "4 ամիս",
+      price: "68,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/pm.svg",
+      title: "C++",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/interior-design.svg",
+      title: "Interior Design",
+      duration: "8 ամիս",
+      price: "65,000",
+    },
+  ],
+];
 
+export const dropboxesData = [
+  {
+    iconClass: "far fa-user-circle",
+    title: "Փորձառու",
+    subtitle: "մասնագետներ",
+    description:
+      "Դասավանդում են փորձառու մասնագետներ, ովքեր կմատուցեն Ձեզ բարդ թվացող ինֆորմացիան բավականին պարզեցված տեսքով:",
+  },
+  {
+    iconClass: "far fa-check-circle",
+    title: "Փոքր խմբեր",
+    subtitle: "անձնական մոտեցում",
+    description:
+      "Դասընթացները անցկացվում են՝ 6-8 ուսանողից կազմված խմբերից, ապահովելով անհատական մոտեցում յուրաքանչյուր ուսանողին:",
+  },
+  {
+    iconClass: "fas fa-mug-hot",
+    title: "Հարմարավետ",
+    subtitle: "կահավորված լսարաններ",
+    description:
+      "Մեր հարմարավետ կահավորված լսարաններում Ձեր ուսման պրոցեսը կդառնա էլ ավելի հաճելի։",
+  },
+  {
+    iconClass: "fas fa-hand-holding-heart",
+    title: "Փորձնական",
+    subtitle: "3 դաս",
+    description:
+      "Բոլոր ուսանողներին կտրամադրվի 3 փորձնական դաս, որը Ձեզ հնարավորություն կտա փորձել Ձեր ուժերը և ծանոթանալ դասապրոցեսի ընթացքին։",
+  },
+  {
+    iconClass: "fa-sharp fa-solid fa-video",
+    title: "Դասի",
+    subtitle: "ձայնագրություն",
+    description:
+      "Յուրաքանչյուր դասի ավարտին կստանաք նաև դասի տեսագրությունը՝ տանը կրկնելու համար։",
+  },
+  {
+    iconClass: "fa-sharp fa-solid fa-headset",
+    title: "Օնլայն",
+    subtitle: "օգնական",
+    description:
+      "Կուրսի ամբողջ ընթացքում դուք կստանաք հեռավար աջակցություն` մասնագետի կողմից:",
+  },
+  {
+    iconClass: "far fa-hourglass",
+    title: "Ապառիկ",
+    subtitle: "ուսուցում",
+    description:
+      "Շատ լավ հնարավորություն՝ սովորել ապառիկ պայմաններով և վճարել ուսման համար դասընթացի ավարտին՝ աշխատանքի անցնելուց հետո:",
+  },
+  {
+    iconClass: "fa-sharp fa-solid fa-briefcase",
+    title: "Կարիերային",
+    subtitle: "աճ",
+    description:
+      "Բոլոր ուսանողները կստանան 1 ամսյա անվճար թրեյնինգ մեր HR մասնագետի կողմից՝ հաջողակ կարիերա ստեղծելու համար",
+  },
+  {
+    iconClass: "far fa-building",
+    title: "Աշխատանքի",
+    subtitle: "առաջարկ",
+    description:
+      "Դասընթացի ավարտին լավագույն արդյունք ցուցաբերած ուսանողներին կաջակցենք աշխատանքի ընդունման հարցում:",
+  },
+];
 
-                        <li><a href="https://www.linkedin.com/company/smarttechnologyllc/" target="_blank">
-                                <i className="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-
-
-                        <li><a href="https://www.instagram.com/smartcode.am/" target="_blank">
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                        </li>
-
-
-                        <li><a href="https://www.tiktok.com/@smartcode.am" target="_blank">
-                                <i className="fab fa-tiktok"></i>
-                            </a>
-                        </li> */
-}
+export const paragraphs = [
+  "SmartCode ծրագրավորման ուսուցման ընկերությունը արդեն 9 տարի է կազմակերպում և իրականացնում է ծրագրավորման դասընթացներ, նպատակ ունենալով աշխատաշուկային հանձնել որակյալ մասնագետներ:",
+  "Հետևելով համաշխարհային IT թրենդներին՝ թարմացվում և կատարելագործվում են դասավանդման ծրագրերը: Հատուկ մշակված ծրագրի արդյունքում մեր ուսանողները գրանցում են մեծ հաջողություններ: Հմուտ մասնագետների աշխատանքի արդյունքում մենք վայելում ենք մեր ուսանողների սերն ու վստահությունը:",
+  "Դու էլ միացի՛ր մեզ, դարձի՛ր մրցունակ ծրագրավորման ոլորտում SmartCode-ի օգնությամբ:",
+];
