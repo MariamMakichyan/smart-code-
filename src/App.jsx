@@ -1,10 +1,12 @@
  import Nav from './components/Nav/Nav' 
+ import Header from './components/Header/Header'
 import './App.css'
 
-function App() {
+function App({navigation}) {
 return (
     <>
-      <Nav />
+      <Nav nav={navigation}/>
+      <Header />
     </>
   )
 }
