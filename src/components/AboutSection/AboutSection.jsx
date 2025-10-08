@@ -1,5 +1,7 @@
 import AboutInfo from "../AboutInfo/AboutInfo";
 
+import "./AboutSection.css"
+
 function AboutSection({paragraphs}) {
   return (
     <section className="about">

@@ -1,3 +1,5 @@
+import "./Logo.css"
+
 function Logo() {
   return (
     <a href="#" class="navtop-logo">

@@ -10,6 +10,7 @@ function CoursesBox({ courses, active }) {
           title={course.title}
           duration={course.duration}
           price={course.price}
+          active={course.active}
         />
       ))}
     </div>

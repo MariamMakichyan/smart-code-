@@ -1,0 +1,36 @@
+.navtop-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navtop-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #ffb300;
+    transition: width 0.5s ease;
+}
+
+.navtop-menu li a:hover::after {
+    width: 100%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+
+}
+
+.navtop .navtop-menu a {
+    padding: 34px 18px;
+    display: block;
+    position: relative;
+    color: black;
+    font-family: 'DejaVu Sans', sans-serif;
+}

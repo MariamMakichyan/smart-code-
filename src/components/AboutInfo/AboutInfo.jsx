@@ -1,3 +1,5 @@
+import './AboutInfo.css'
+
 function AboutInfo({paragraphs}) {
   return (
     <div className="section-info">

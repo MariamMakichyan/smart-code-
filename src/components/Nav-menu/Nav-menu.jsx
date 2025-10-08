@@ -1,3 +1,5 @@
+import "./Nav-menu.css"
+
 function Navmenu({ navigation }) {
   return (
     <ul className="navtop-menu">

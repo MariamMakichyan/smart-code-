@@ -1,0 +1,145 @@
+
+section.features .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section .section-title {
+    margin-block: 20px;
+}
+
+
+section .section-title h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    line-height: 32px;
+    font-family: 'DejaVu Sans', sans-serif;
+    text-align: left;
+}
+
+.section-title h2 span {
+
+    font-weight: 700;
+}
+
+.section-title p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+section .section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+}
+
+section .section-box .section-image {
+    width: 450px;
+}
+
+section .section-box .section-info {
+    flex-grow: 1;
+    width: 735px;
+}
+
+section.features .section-box .section-info ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+section.features .section-box .section-info ul li.dropbox {
+    background-color: #fff;
+    box-shadow: 2px 2px 18px rgb(0 0 0 / 5%);
+    border-radius: 27px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section.features .section-box .section-info ul li.dropbox .dropbox-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+
+section.features .section-box .section-info ul li.dropbox .dropbox-head div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.features .section-box .section-info ul li.dropbox .dropbox-head div i {
+    margin-right: 15px;
+    color: #f3b01b;
+    font-size: 1.5em;
+}
+
+.section-info p {
+    line-height: 25px;
+}
+
+
+.dropbox-head div span {
+    font-weight: 900;
+}
+
+section.features .section-box .section-info ul li.dropbox .dropbox-head>i {
+    background: #fbfbfb;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+
+
+section.features .section-box .section-info ul li.dropbox .dropbox-collapse {
+    border-top: 1px solid #f3f3f3;
+    display: none;
+    padding: 20px 25px 25px;
+
+}
+
+section .section-box .section-info p {
+    line-height: 25px;
+}
+
+
+section .section-foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section .section-foot .but-main {
+    background-color: #f3b01b;
+    border: 1px solid #f3b01b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    padding: 12px 35px;
+    color: #fff;
+    display: inline-block;
+    transition: all .4s;
+}
+
+section .section-foot .but-main:hover {
+    background-color: transparent;
+    color: black;
+}

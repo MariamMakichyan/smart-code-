@@ -1,7 +1,7 @@
 import CoursesBox from "../CoursesBox/CoursesBox";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
-import { coursesData } from "../Db/data";
+import '../Section-price/SectionPrice.css'
 
 function SectionPrice({ coursesData }) {
   return (

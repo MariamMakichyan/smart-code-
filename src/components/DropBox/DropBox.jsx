@@ -1,6 +1,6 @@
 
 
-function DropBox({ iconClass, title, subtitle, children }) {
+function DropBox({ iconClass, title, subtitle, description }) {
   return (
     <li className="dropbox">
       <div className="dropbox-head">
@@ -11,7 +11,7 @@ function DropBox({ iconClass, title, subtitle, children }) {
         <i className="fas fa-chevron-down"></i>
       </div>
       <div className="dropbox-collapse" style={{ display: "none" }}>
-        <p>{children}</p>
+        <p>{description}</p>
       </div>
     </li>
   );
