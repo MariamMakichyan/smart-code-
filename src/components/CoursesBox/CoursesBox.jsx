@@ -1,6 +1,6 @@
 import CourseItem from "../CourseItem/CourseItem";
 
-function CoursesBox({ courses, active }) {
+function CoursesBox({ courses, active, }) {
   return (
     <div className={`courses-box ${active ? "active" : ""}`}>
       {courses.map((course, index) => (
@@ -10,7 +10,7 @@ function CoursesBox({ courses, active }) {
           title={course.title}
           duration={course.duration}
           price={course.price}
-          active={course.active}
+         
         />
       ))}
     </div>

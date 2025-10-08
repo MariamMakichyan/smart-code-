@@ -1,4 +1,4 @@
-import { icons } from "../Db/data";
+import { icons } from "../../Db/data";
 
 function ContactInfo({ contacts }) {
   return (
@@ -10,7 +10,9 @@ function ContactInfo({ contacts }) {
             <a
               href={contact.href}
               target={contact.type === "location" ? "_blank" : undefined}
-              rel={contact.type === "location" ? "noopener noreferrer" : undefined}
+              rel={
+                contact.type === "location" ? "noopener noreferrer" : undefined
+              }
             >
               <i className={icons[contact.type]}></i> {contact.value}
             </a>

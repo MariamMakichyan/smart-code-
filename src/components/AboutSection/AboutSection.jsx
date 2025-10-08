@@ -4,7 +4,7 @@ import "./AboutSection.css"
 
 function AboutSection({paragraphs}) {
   return (
-    <section className="about">
+    <section className="about" id="aboutId">
       <div className="container">
         <div className="section-title">
           <h2>Մեր <span>մասին</span></h2>

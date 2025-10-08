@@ -1,9 +1,23 @@
+
+
+
+
+import { useState } from "react";
 import DropBox from "../DropBox/DropBox";
 import ButtonMain from "../ButtonMain/ButtonMain";
 
-import "../AdvantageSection/AdvantageSection.css"
+import "../AdvantageSection/AdvantageSection.css";
 
-function AdvantageSection({ dropboxesData }) {
+function AdvantageSection({ dropboxesData,  onRegisterClick  }) {
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  
+  const handleToggle = (index) => {
+   
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <section id="section-advantage" className="features">
       <div className="container">
@@ -29,16 +43,16 @@ function AdvantageSection({ dropboxesData }) {
                   title={item.title}
                   subtitle={item.subtitle}
                   description={item.description}
-                >
-                
-                </DropBox>
+                  isOpen={openIndex === index}   // ✅ ստանում է բաց/փակ վիճակը
+                  onToggle={() => handleToggle(index)}  // ✅ փոխանցում ենք սեղմման ֆունկցիան
+                />
               ))}
             </ul>
           </div>
         </div>
 
         <div className="section-foot">
-          <ButtonMain href="#" text="Սկսե՛լ ուսումը" />
+          <ButtonMain href="#" text="Սկսե՛լ ուսումը"   onClick={onRegisterClick} />
         </div>
       </div>
     </section>
@@ -46,3 +60,4 @@ function AdvantageSection({ dropboxesData }) {
 }
 
 export default AdvantageSection;
+

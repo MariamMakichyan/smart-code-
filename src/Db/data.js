@@ -1,8 +1,8 @@
 export const navigation = [
   { names: "Դասընթացներ", href: "#section-price" },
   { names: "Առավելություններ", href: "#section-advantage" },
-  { names: "Թրեյներներ", href: "#" },
-  { names: "Մեր մասին", href: "#" },
+  { names: "Թրեյներներ", href: "#headerId" },
+  { names: "Մեր մասին", href: "#aboutId" },
 ];
 
 export const socialLinks = [
@@ -35,122 +35,122 @@ export const coursesData = [
       title: "AI Automation",
       duration: "1 ամիս",
       price: "89,000",
-      active:"active"
+      active: "active",
     },
     {
       img: "https://smartcode.am/public/image/courses/front-end.svg",
       title: "WEB Front-End",
       duration: "9 ամիս",
       price: "58,000",
-      active:"active"
+      active: "active",
     },
     {
       img: "https://smartcode.am/public/image/courses/python-ml.svg",
       title: "Python (ML/AI)",
       duration: "7 ամիս",
       price: "68,000",
-      active:"active"
+      active: "active",
     },
     {
       img: "https://smartcode.am/public/image/courses/java.svg",
       title: "Java",
       duration: "6 ամիս",
       price: "68,000",
-      active:"active"
+      active: "active",
     },
   ],
-  // [
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/javaScript.svg",
-  //     title: "JavaScript",
-  //     duration: "3.5 ամիս",
-  //     price: "58,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/react.svg",
-  //     title: "React.js (Redux)",
-  //     duration: "3 ամիս",
-  //     price: "58,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/node.svg",
-  //     title: "Node.js",
-  //     duration: "3 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/devops.svg?v=1.2",
-  //     title: "DevOps",
-  //     duration: "4 ամիս",
-  //     price: "68,000",
-  //   },
-  // ],
-  // [
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/C.svg",
-  //     title: "C#",
-  //     duration: "6 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/python-django.svg",
-  //     title: "Python (Django)",
-  //     duration: "5 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/php.svg",
-  //     title: "PHP (Laravel)",
-  //     duration: "6 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/full-stack.svg",
-  //     title: "WEB Full-Stack",
-  //     duration: "11 ամիս",
-  //     price: "58,000",
-  //   },
-  // ],
-  // [
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/ui-ux.svg?v=1.1",
-  //     title: "UX/UI Design",
-  //     duration: "4 ամիս",
-  //     price: "65,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/qa.svg",
-  //     title: "QA Engineer",
-  //     duration: "6 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/graphic-design.svg?v=1.2",
-  //     title: "Graphic Design",
-  //     duration: "3 ամիս",
-  //     price: "65,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/pm.svg",
-  //     title: "Product Management",
-  //     duration: "4 ամիս",
-  //     price: "68,000",
-  //   },
-  // ],
-  // [
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/pm.svg",
-  //     title: "C++",
-  //     duration: "6 ամիս",
-  //     price: "68,000",
-  //   },
-  //   {
-  //     img: "https://smartcode.am/public/image/courses/interior-design.svg",
-  //     title: "Interior Design",
-  //     duration: "8 ամիս",
-  //     price: "65,000",
-  //   },
-  // ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/javaScript.svg",
+      title: "JavaScript",
+      duration: "3.5 ամիս",
+      price: "58,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/react.svg",
+      title: "React.js (Redux)",
+      duration: "3 ամիս",
+      price: "58,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/node.svg",
+      title: "Node.js",
+      duration: "3 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/devops.svg?v=1.2",
+      title: "DevOps",
+      duration: "4 ամիս",
+      price: "68,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/C.svg",
+      title: "C#",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/python-django.svg",
+      title: "Python (Django)",
+      duration: "5 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/php.svg",
+      title: "PHP (Laravel)",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/full-stack.svg",
+      title: "WEB Full-Stack",
+      duration: "11 ամիս",
+      price: "58,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/ui-ux.svg?v=1.1",
+      title: "UX/UI Design",
+      duration: "4 ամիս",
+      price: "65,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/qa.svg",
+      title: "QA Engineer",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/graphic-design.svg?v=1.2",
+      title: "Graphic Design",
+      duration: "3 ամիս",
+      price: "65,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/pm.svg",
+      title: "Product Management",
+      duration: "4 ամիս",
+      price: "68,000",
+    },
+  ],
+  [
+    {
+      img: "https://smartcode.am/public/image/courses/pm.svg",
+      title: "C++",
+      duration: "6 ամիս",
+      price: "68,000",
+    },
+    {
+      img: "https://smartcode.am/public/image/courses/interior-design.svg",
+      title: "Interior Design",
+      duration: "8 ամիս",
+      price: "65,000",
+    },
+  ],
 ];
 
 export const dropboxesData = [
@@ -269,8 +269,7 @@ export const icons = {
   location: "fa fa-map-marker",
 };
 
-
- export const coursesList = [
+export const coursesList = [
   "AI Automation",
   "Ծրագրավորում 0-ից",
   "Python / ML",
@@ -288,11 +287,9 @@ export const icons = {
   "Graphic Design",
   "Product Management",
   "C++",
-  "Interior Design"
+  "Interior Design",
 ];
 
+export const timesList = ["Առավոտյան", "Ցերեկային", "Երեկոյան", "Բոլոր ժամերը"];
 
- export const timesList = ["Առավոտյան", "Ցերեկային", "Երեկոյան", "Բոլոր ժամերը"];
-
- export const types = ["Առկա", "Օնլայն"];
- 
+export const types = ["Առկա", "Օնլայն"];

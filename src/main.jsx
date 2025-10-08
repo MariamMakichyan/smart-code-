@@ -12,8 +12,8 @@ import {
   paymentIcons,
   coursesList,
   timesList,
-  types
-} from "../src/components/Db/data.js";
+  types,
+} from "./Db/data.js";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./index.css";

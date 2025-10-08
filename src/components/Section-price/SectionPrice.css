@@ -1,6 +1,6 @@
 
 .courses {
-    background-color: white;
+    background-color: #fbfbfb;
 }
 
 .courses .container {
@@ -59,16 +59,15 @@ section .section-box .section-info {
     flex-grow: 1;
 }
 
-.courses-box {
-    display: flex;  justify-content: space-between;
+.courses-box{
+    display: none;  justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 3%;
 }
-.active{  display: flex;  justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 3%;}
+.courses-box.active{  
+    display: flex;
+}
 
 
 section.courses .section-box .section-info .courses-box .course-item {

@@ -7,8 +7,6 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import Footer from "./components/Footer/Footer";
 import RegistrationModal from "./components/RegistrationModal/RegistrationModal";
 
-import "./App.css";
-
 function App({
   navigation,
   socialLinks,
@@ -31,7 +29,7 @@ function App({
       <Nav nav={navigation} onRegisterClick={openModal} />
       <Header socmedia={socialLinks} onRegisterClick={openModal}/>
       <SectionPrice coursesData={coursesData} />
-      <AdvantageSection dropboxesData={dropboxesData} />
+      <AdvantageSection dropboxesData={dropboxesData} onRegisterClick={openModal} />
       <AboutSection paragraphs={paragraphs} />
       <Footer
         socialLinks={socialLinks}

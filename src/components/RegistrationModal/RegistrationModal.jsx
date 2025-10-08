@@ -50,7 +50,7 @@ onClose();
             ×
           </span>
         </div>
-
+<h3>Գրանցվել դասընթացին</h3>
         <form onSubmit={handleSubmit}>
           <UserInfoInputs formData={formData} handleChange={handleChange} />
           <CourseSelect

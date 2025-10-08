@@ -24,7 +24,7 @@ function Header({ socmedia, onRegisterClick }) {
   };
 
   return (
-    <header className="header-main">
+    <header className="header-main" id="headerId">
       <div className="container">
         <div className="header-info">
           <h1>
@@ -64,7 +64,7 @@ function Header({ socmedia, onRegisterClick }) {
               &times;
             </span>
             <video id="myVideo"  controls autoPlay>
-              <source src="https://smartcode.am/public/video/video.mp4" type="video/mp4" />
+              <source src="https://smartcode.am/public/video/video.mp4" type="video/mp4"  />
              
             </video>
           </div>
