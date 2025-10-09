@@ -7,6 +7,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import Footer from "./components/Footer/Footer";
 import RegistrationModal from "./components/RegistrationModal/RegistrationModal";
 
+
 function App({
   navigation,
   socialLinks,

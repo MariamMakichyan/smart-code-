@@ -3,8 +3,7 @@ import UserInfoInputs from "./UserInfoInputs/UserInfoInputs";
 import CourseSelect from "./CourseSelect/CourseSelect";
 import SelectTime from "./SelectTime/SelectTime";
 
-function RegistrationModal({ isOpen, onClose, courses, timesList, }) {
-
+function RegistrationModal({ isOpen, onClose, courses, timesList }) {
   const initialFormData = {
     nameFull: "",
     email: "",
@@ -16,26 +15,21 @@ function RegistrationModal({ isOpen, onClose, courses, timesList, }) {
 
   const [formData, setFormData] = useState(initialFormData);
 
-  if (!isOpen) return null; // Եթե modal-ը փակ է, ոչինչ չցուցադրել
+  if (!isOpen) return null;
 
-  // Դաշտերի փոփոխությունը
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Գրանցվելու handler
   const handleSubmit = (e) => {
     e.preventDefault();
 
     setFormData(initialFormData);
-onClose();
+    onClose();
     alert(
       `Դուք գրանցվեցիք դասընթացին:\nԿուրս: ${formData.profession}\nԺամը: ${formData.selectedTime}\nԱնուն Ազգանուն: ${formData.nameFull}`
     );
-
-    
-
-   
   };
 
   return (
@@ -50,7 +44,7 @@ onClose();
             ×
           </span>
         </div>
-<h3>Գրանցվել դասընթացին</h3>
+        <h3>Գրանցվել դասընթացին</h3>
         <form onSubmit={handleSubmit}>
           <UserInfoInputs formData={formData} handleChange={handleChange} />
           <CourseSelect
@@ -63,7 +57,6 @@ onClose();
             value={formData.selectedTime}
             onChange={handleChange}
           />
-         
 
           <button type="submit" className="submitBtn">
             Գրանցվել

@@ -1,7 +1,3 @@
-
-
-
-
 import { useState } from "react";
 import DropBox from "../DropBox/DropBox";
 import ButtonMain from "../ButtonMain/ButtonMain";
@@ -43,8 +39,8 @@ function AdvantageSection({ dropboxesData,  onRegisterClick  }) {
                   title={item.title}
                   subtitle={item.subtitle}
                   description={item.description}
-                  isOpen={openIndex === index}   // ✅ ստանում է բաց/փակ վիճակը
-                  onToggle={() => handleToggle(index)}  // ✅ փոխանցում ենք սեղմման ֆունկցիան
+                  isOpen={openIndex === index}   
+                  onToggle={() => handleToggle(index)} 
                 />
               ))}
             </ul>
